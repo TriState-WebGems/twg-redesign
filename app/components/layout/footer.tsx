@@ -16,15 +16,15 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <AnimatedRoutes>
-      <nav className="bg-white text-black shadow-lg grid grid-cols-3 gap-4 px-20 py-8 text-center">
-        <div className="flex flex-col justify-center leading-loose text-xl">
+      <nav className="bg-white text-black shadow-lg lg:grid lg:grid-cols-3 lg:gap-4 px-20 py-8 sm:w-full sm:flex sm:flex-col sm:justify-center sm:items-center text-center">
+        <div className="flex flex-col justify-center leading-loose text-xl sm:mb-8">
           <h3>Texas WebGems</h3>
           <p>6705 W Highway 290 Ste 607 PMB 1108</p>
           <p>Austin, TX 78735</p>
           <Link href="tel:512-765-6480">(512)765-6480</Link>
           <Link href="mailto:gem@texaswebgems.com">Email Me!</Link>
         </div>
-        <div className="flex flex-col justify-center items-center text-xl">
+        <div className="flex flex-col justify-center items-center text-xl sm:flex-row sm:justify-around">
           <Link
             href="/about"
             className="h-16 px-4 text-gray-500 hover:text-gray-900"
