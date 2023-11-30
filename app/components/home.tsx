@@ -25,7 +25,7 @@ export default function Page() {
           <p className="text-lg">We&apos;re a web development company based in Austin, TX.</p>
         </div>
       </section>
-      <section className="flex flex-col justify-center items-center bg-black text-light text-xl py-8">
+      <section className="flex flex-col justify-center items-center bg-black text-white text-xl py-8">
         <h2 className="text-2xl pb-8">Our services include:</h2>
         <ul className="flex flex-row w-4/5 justify-around items-center">
           <li className="flex flex-col justify-center items-center">
