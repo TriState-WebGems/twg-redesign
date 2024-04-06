@@ -47,7 +47,7 @@ export default function Page() {
         <section className="flex flex-row justify-around items-center w-4/5 m-auto">
           <div className='flex flex-col justify-center items-center'>
             <Image className='rounded-xl' src={img} alt="Odd Thoughts, a Blog by vivacious0dd" width={400} height={200} />
-            <Link className='text-xl text-purple-700' href="https://vivacious0dd.blog">Odd Thoughts, a Blog by vivacious0dd</Link>
+              <Link className='text-xl text-purple-700' href="https://odd-thoughts.netlify.app">Odd Thoughts, a Blog by vivacious0dd</Link>
           </div>
           <div className='flex flex-col justify-center items-center'>
             <Image className='rounded-xl' src={img2} alt="GemAfaWell" width={400} height={200} />
