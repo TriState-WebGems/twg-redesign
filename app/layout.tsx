@@ -12,7 +12,7 @@ const gruppo = Gruppo({ weight: "400", style: 'normal', subsets: ['latin-ext'], 
 
 export const metadata: Metadata = {
   title: 'Texas WebGems',
-  description: 'Texas WebGems: Putting the Diamond in Your Rough',
+  description: 'We\'re Texas WebGems, a web development and design firm in Austin, TX.',
 }
 
 export default function RootLayout({

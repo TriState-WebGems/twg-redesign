@@ -20,16 +20,16 @@ export default function Navbar() {
         <FontAwesomeIcon icon={faBars} onClick={handleClick} />
       </button>
       {menuOpen && (
-      <nav className="bg-white shadow-lg flex flex-col items-center md:flex-row justify-around text-2xl visible w-full">
+        <nav className="bg-black text-white shadow-lg flex flex-col items-center md:flex-row justify-around text-2xl visible w-full">
         <Link
           href="/about"
-          className="flex items-center justify-between px-4 my-1 text-gray-500 hover:text-gray-900"
+            className="flex items-center justify-between px-4 my-1 text-gray-400 hover:text-white"
         >
           About
         </Link>
         <Link
           href="/contact"
-          className="flex items-center justify-between px-4 my-1 text-gray-500 hover:text-gray-900"
+            className="flex items-center justify-between px-4 my-1 text-gray-400 hover:text-white"
         >
           Contact
         </Link>
@@ -43,13 +43,13 @@ export default function Navbar() {
         </Link>
         <Link
           href="/blog"
-          className="flex items-center justify-between px-4 my-1 text-gray-500 hover:text-gray-900"
+            className="flex items-center justify-between px-4 my-1 text-gray-400 hover:text-white"
         >
           Blog
         </Link>
         <Link
           href="https://gemafawell.dev"
-          className="flex items-center justify-between px-4 my-1 text-gray-500 hover:text-gray-900"
+            className="flex items-center justify-between px-4 my-1 text-gray-400 hover:text-white"
         >
           Portfolio
         </Link>

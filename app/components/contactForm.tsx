@@ -5,7 +5,7 @@ const ContactForm = () => {
   return (
     <AnimatedRoutes>
       <form
-        className="bg-yellow-300 rounded-xl text-black pb-8 mt-8"
+        className="bg-yellow-400 rounded-xl text-black pb-8 mt-8"
         name="contact"
         method="POST"
         data-netlify="true"
@@ -30,7 +30,7 @@ const ContactForm = () => {
           </div>
         </section>
         <button
-          className="bg-purple-600 text-yellow-300 p-1 rounded-lg"
+          className="bg-purple-600 text-yellow-400 p-1 rounded-lg"
           type="submit"
           id="submit"
           title="submit"
