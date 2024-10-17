@@ -51,14 +51,11 @@ export default function Page() {
             <div className='flex flex-col justify-center items-center'>
               <Link className='text-xl text-purple-900' href="https://gemafawell.dev/" target='_blank'>GemAfaWell Dev Portfolio (redesigned 2024-09-24)</Link>
             </div>
-            {/* <div className='flex flex-col justify-center items-center'>
-              <Link className='text-xl text-purple-900' href='https://www.gianinecarbonedesigns.com/' target='_blank'>Gianine Carbone Designs (transfer complete 2024-Oct)</Link>
-            </div> */}
             <div className='flex flex-col justify-center items-center'>
-              <Link className='text-xl text-purple-900' href='https://www.geminiphoenixmusic.com/' target='_blank'>Gemini Phoenix (under construction)</Link>
+              <Link className='text-xl text-purple-900' href='https://www.gianinecarbonedesigns.com/' target='_blank'>Gianine Carbone Designs (transfer complete October 2024)</Link>
             </div>
             <div className='flex flex-col justify-center items-center'>
-              <p>Gianine Carbone Designs (coming soon)</p>
+              <Link className='text-xl text-purple-900' href='https://www.geminiphoenixmusic.com/' target='_blank'>Gemini Phoenix (under construction)</Link>
             </div>
           </section>
         </section>
