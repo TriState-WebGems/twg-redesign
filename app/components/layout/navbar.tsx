@@ -51,7 +51,7 @@ export default function Navbar() {
           href="https://gemafawell.dev"
             className="flex items-center justify-between px-4 my-1 text-gray-400 hover:text-white"
         >
-          Portfolio
+          Portfolio (under construction)
         </Link>
       </nav>
       )}

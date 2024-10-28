@@ -45,7 +45,7 @@ export default function Navbar() {
             href="https://gemafawell.dev"
             className="h-16 px-4 text-gray-400 hover:text-white"
           >
-            Portfolio
+            Portfolio (under construction)
           </Link>
         </div>
         <div className="flex flex-col justify-around">
@@ -53,28 +53,36 @@ export default function Navbar() {
           <p className='pb-4'>Ask about us on:</p>
           <section className="grid grid-cols-2 gap-4 justify-items-center">
             <div>
+              <Link href="https://www.facebook.com/TexasWebGems" target="_blank">
               <FontAwesomeIcon
                 icon={faFacebook}
                 className="text-6xl text-gray-400 hover:text-white"
               />
+              </Link>
             </div>
             <div>
+              <Link href="https://www.x.com/TexasWebGems" target="_blank">
               <FontAwesomeIcon
                 icon={faTwitter}
                 className="text-6xl text-gray-400 hover:text-white"
               />
+              </Link>
             </div>
             <div>
+              <Link href="https://instagram.com/GemAfaWell" target="_blank">
               <FontAwesomeIcon
                 icon={faInstagram}
                 className="text-6xl text-gray-400 hover:text-white"
               />
+              </Link>
             </div>
             <div>
-              <FontAwesomeIcon
-                icon={faLinkedin}
-                className="text-6xl text-gray-400 hover:text-white"
-              />
+              <Link href="https://www.linkedin.com/company/texas-webgems" target="_blank">
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  className="text-6xl text-gray-400 hover:text-white"
+                />
+              </Link>
             </div>
           </section>
         </div>
