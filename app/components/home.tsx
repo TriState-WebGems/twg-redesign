@@ -61,7 +61,7 @@ export default function Page() {
         </section>
         <section className="flex flex-col items-center justify-center bg-gradient-to-br from-purple-800 to-yellow-400 text-black text-xl py-8">
         <h2 className="text-2xl text-center text-white pb-4">Testimonials</h2>
-        <div className="lg:w-3/5 col-span-2 translate-y-2 sm:w-4/5 sm:m-auto lg:mr-96">
+        <div className="lg:w-3/5 col-span-2 translate-y-2 sm:w-4/5 sm:m-auto lg:mr-60">
             <blockquote className="flex flex-col justify-center items-center text-white text-xl p-4 rounded-xl bg-gradient-to-bl from-slate-800 to-yellow-500">
               <p>I found Gemini through a local online group, where someone had recommended her to help me with my website. I was really in a bind. I already had a website on one platform but needed to switch to a different platform that interfaces with Instagram. Not only did Gemini help me, but she did it so quickly and was in touch during the whole process. She also took the time to help me get hooked up to my Instagram page, which I&apos;d been unable to do with my previous website. It all looks great and she showed me how to add items to my website as they get made. She was very thorough. I&apos;m so so grateful. Thank you Gemini!</p>
               <cite className='font-semibold'>- <Link href="https://instagram.com/gianinecarbonedesigns" target='_blank' className='text-black underline'>Gianine Carbone</Link>, <Link href='https://www.gianinecarbonedesigns.com' className='text-black underline' target='_blank'>Gianine Carbone Designs</Link></cite>
