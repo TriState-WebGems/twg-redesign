@@ -16,10 +16,10 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <AnimatedRoutes>
-      <nav className="bg-black text-white shadow-lg lg:grid lg:grid-cols-3 lg:gap-4 px-20 py-8 sm:w-full sm:flex sm:flex-col sm:justify-center sm:items-center text-center">
+      <nav className="bg-transparent text-white shadow-lg lg:grid lg:grid-cols-3 lg:gap-4 px-20 py-8 sm:w-full sm:flex sm:flex-col sm:justify-center sm:items-center text-center">
         <div className="flex flex-col justify-center leading-loose text-xl sm:mb-8">
           <h3>Texas WebGems</h3>
-          <p>Austin, TX 78753</p>
+          <p>Austin, Texas</p>
           <Link href="mailto:gemini@gemafawell.dev">Email Me!</Link>
         </div>
         <div className="flex flex-col justify-center items-center text-xl sm:flex-row sm:justify-around">
@@ -42,10 +42,10 @@ export default function Navbar() {
             Blog
           </Link>
           <Link
-            href="https://gemafawell.dev"
+            href="#portfolio"
             className="h-16 px-4 text-gray-400 hover:text-white"
           >
-            Portfolio (under construction)
+            Portfolio
           </Link>
         </div>
         <div className="flex flex-col justify-around">

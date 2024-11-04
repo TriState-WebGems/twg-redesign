@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={gruppo.className}>
+      <body className={gruppo.className + " w-4/5 m-auto bg-gradient-to-b from-black via-purple-800 to-black"}>
         <Navbar />
         <main>{children}</main>
         <Footer />
