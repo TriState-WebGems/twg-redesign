@@ -6,7 +6,7 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
-  faTwitter,
+  faXTwitter,
   faInstagram,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
@@ -49,38 +49,37 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="flex flex-col justify-around">
-          <h3 className="text-xl pb-4">Find us on social media wherever you are!</h3>
-          <p className='pb-4'>Ask about us on:</p>
-          <section className="grid grid-cols-2 gap-4 justify-items-center">
+          <h3 className="text-xl">Find us on social media wherever you are!</h3>
+          <section className="mx-auto my-8 flex flex-row gap-8 justify-items-center">
             <div>
-              <Link href="https://www.facebook.com/TexasWebGems" target="_blank">
+              <Link href="https://www.facebook.com/TexasWebGems" target="_blank" title="Facebook - Texas WebGems">
               <FontAwesomeIcon
                 icon={faFacebook}
-                className="text-6xl text-gray-400 hover:text-white"
+                className="text-4xl text-gray-400 hover:text-white"
               />
               </Link>
             </div>
             <div>
-              <Link href="https://www.x.com/TexasWebGems" target="_blank">
+              <Link href="https://www.x.com/TexasWebGems" target="_blank" title="X - Texas WebGems">
               <FontAwesomeIcon
-                icon={faTwitter}
-                className="text-6xl text-gray-400 hover:text-white"
+                icon={faXTwitter}
+                className="text-4xl text-gray-400 hover:text-white"
               />
               </Link>
             </div>
             <div>
-              <Link href="https://instagram.com/GemAfaWell" target="_blank">
+              <Link href="https://instagram.com/GemAfaWell" target="_blank" title="Instagram - GemAfaWell, Founder of Texas WebGems">
               <FontAwesomeIcon
                 icon={faInstagram}
-                className="text-6xl text-gray-400 hover:text-white"
+                className="text-4xl text-gray-400 hover:text-white"
               />
               </Link>
             </div>
             <div>
-              <Link href="https://www.linkedin.com/company/texas-webgems" target="_blank">
+              <Link href="https://www.linkedin.com/company/texas-webgems" target="_blank" title="LinkedIn - Texas WebGems">
                 <FontAwesomeIcon
                   icon={faLinkedin}
-                  className="text-6xl text-gray-400 hover:text-white"
+                  className="text-4xl text-gray-400 hover:text-white"
                 />
               </Link>
             </div>
