@@ -29,15 +29,15 @@ export default function Page() {
           <h2 className="text-2xl pb-8 font-semibold">Our services include:</h2>
           <ul className="flex flex-row w-4/5 justify-around items-center">
             <li className="flex flex-col justify-center items-center">
-              <Image priority={false} className='rounded-md' src={dev} alt="Web Development" width={192} height={192} />
+              <Image priority={false} className='rounded-md' src={dev} alt="a computer desk is pictured; an all-in-one Macbook stands at center; an iPhone sits on a stand to the right. The MacBook has magenta backlighting." width={192} height={192} />
               <p className='my-2'>Web Development</p>
             </li>
             <li className="flex flex-col justify-center items-center">
-              <Image className='rounded-md' src={maintenance} alt="Website Maintenance" width={192} height={192} />
+              <Image className='rounded-md' src={maintenance} alt="lines of JavaScript code" width={192} height={192} />
               <p className='my-2'>Website Maintenance</p>
             </li>
             <li className="flex flex-col justify-center items-center">
-              <Image className='rounded-md' src={seo} alt="SEO Optimization" width={192} height={192} />
+              <Image className='rounded-md' src={seo} alt="a notebook is positioned at a distance over a keyboard; the notebook is full of differing ideas centered around the phrase 'Amazon Optimizing.' Phrases include 'headline search ads,' 'sponsored product ads,' and 'amazon marketing services'. Two pencils are on top of the notebook, one with black color and one with red color." width={192} height={192} />
               <p className='my-2'>SEO Optimization</p>
             </li>
           </ul>
