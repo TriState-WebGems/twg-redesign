@@ -46,16 +46,19 @@ export default function Page() {
           <h2 className="text-2xl text-center pb-8" id='#portfolio'>Portfolio</h2>
           <section className="flex flex-col justify-center items-center w-4/5 m-auto">
             <div className='flex flex-col justify-center items-center'>
-              <Link className='text-xl text-purple-900' href="https://odd-thoughts.netlify.app/" target='_blank'>Odd Thoughts, a Blog by vivacious0dd (created in 2023; last maintenance summer 2024)</Link>
-            </div>
-            {/* <div className='flex flex-col justify-center items-center'>
-              <Link className='text-xl text-purple-900' href="https://gemafawell.dev/" target='_blank'>GemAfaWell Dev Portfolio (redesigned 2024-09-24)</Link>
-            </div> */}
-            <div className='flex flex-col justify-center items-center'>
-              <Link className='text-xl text-purple-900' href='https://www.gianinecarbonedesigns.com/' target='_blank'>Gianine Carbone Designs (transfer complete October 2024)</Link>
+              <Link className='text-xl text-purple-900' href="https://odd-thoughts.netlify.app/" target='_blank'>Odd Thoughts, a Blog by vivacious0dd (Next.js, TypeScript, MongoDB, Express, Node, Firebase, GCP)</Link>
             </div>
             <div className='flex flex-col justify-center items-center'>
-              <Link className='text-xl text-purple-900' href='https://www.geminiphoenixmusic.com/' target='_blank'>Gemini Phoenix (under construction)</Link>
+              <Link className='text-xl text-purple-900' href="https://healthdata.dshs.texas.gov" target='_blank'>Texas DSHS Health Data (C#, Razor, Bootstrap, jQuery, JSON)</Link>
+            </div>
+            <div className='flex flex-col justify-center items-center'>
+              <Link className='text-xl text-purple-900' href='https://www.gianinecarbonedesigns.com/' target='_blank'>Gianine Carbone Designs (Shopify Liquid, CSS, JavaScript)</Link>
+            </div>
+            <div className='flex flex-col justify-center items-center'>
+              <Link className='text-xl text-purple-900' href='https://www.dshs.texas.gov/center-health-statistics/advanced-analytics-team' target='_blank'>DSHS Advanced Analytics Page (Drupal)</Link>
+            </div>
+            <div className='flex flex-col justify-center items-center'>
+              <h3>I also built this site!</h3>
             </div>
           </section>
         </section>
