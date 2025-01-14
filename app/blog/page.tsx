@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import img from '../frontendgems.webp'
+import img from '@/public/frontendgems.webp'
 import Link from 'next/link'
 import AnimatedRoutes from '../animatedRoutes'
 
