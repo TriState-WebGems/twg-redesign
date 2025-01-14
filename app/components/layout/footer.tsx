@@ -18,68 +18,54 @@ export default function Navbar() {
     <AnimatedRoutes>
       <nav className="bg-transparent text-white shadow-lg lg:grid lg:grid-cols-3 lg:gap-4 px-20 py-8 sm:w-full sm:flex sm:flex-col sm:justify-center sm:items-center text-center">
         <div className="flex flex-col justify-center leading-loose text-xl sm:mb-8">
-          <h3>Texas WebGems</h3>
-          <p>Austin, Texas</p>
-          <Link href="mailto:gemini@gemafawell.dev">Email Me!</Link>
+          <h3>Tri-State WebGems, LLC</h3>
+          <p>5000 Thayer Ctr Ste C</p>
+          <p>Oakland, MD 21550</p>
+          <Link href="mailto:contact@tristatewebgems.com">contact@tristatewebgems.com</Link>
+          <Link href="tel:+12406852490">(240) 685-2490</Link>
         </div>
         <div className="flex flex-col justify-center items-center text-xl sm:flex-row sm:justify-around">
           <Link
             href="/about"
-            className="h-16 px-4 text-gray-400 hover:text-white"
+            className="h-16 px-4 text-white"
           >
             About
           </Link>
           <Link
             href="/contact"
-            className="h-16 px-4 text-gray-400 hover:text-white"
+            className="h-16 px-4 text-white"
           >
             Contact
           </Link>
           <Link
             href="/blog"
-            className="h-16 px-4 text-gray-400 hover:text-white"
+            className="h-16 px-4 text-white"
           >
             Blog
           </Link>
           <Link
-            href="#portfolio"
-            className="h-16 px-4 text-gray-400 hover:text-white"
+            href="https://gemafawell.contra.com"
+            className="h-16 px-4 text-white"
           >
             Portfolio
           </Link>
         </div>
         <div className="flex flex-col justify-around">
-          <h3 className="text-xl">Find us on social media wherever you are!</h3>
+          <h3 className="text-xl">Find me on social media wherever you are!</h3>
           <section className="mx-auto my-8 flex flex-row gap-8 justify-items-center">
             <div>
-              <Link href="https://www.facebook.com/TexasWebGems" target="_blank" title="Facebook - Texas WebGems">
-              <FontAwesomeIcon
-                icon={faFacebook}
-                className="text-4xl text-gray-400 hover:text-white"
-              />
+              <Link href="https://instagram.com/GemAfaWell" target="_blank" title="Instagram - GemAfaWell, Founder of Tri-State WebGems">
+                <FontAwesomeIcon
+                  icon={faInstagram}
+                  className="text-4xl text-white"
+                />
               </Link>
             </div>
             <div>
-              <Link href="https://www.x.com/TexasWebGems" target="_blank" title="X - Texas WebGems">
-              <FontAwesomeIcon
-                icon={faXTwitter}
-                className="text-4xl text-gray-400 hover:text-white"
-              />
-              </Link>
-            </div>
-            <div>
-              <Link href="https://instagram.com/GemAfaWell" target="_blank" title="Instagram - GemAfaWell, Founder of Texas WebGems">
-              <FontAwesomeIcon
-                icon={faInstagram}
-                className="text-4xl text-gray-400 hover:text-white"
-              />
-              </Link>
-            </div>
-            <div>
-              <Link href="https://www.linkedin.com/company/texas-webgems" target="_blank" title="LinkedIn - Texas WebGems">
+              <Link href="https://www.linkedin.com/company/tristatewebgems" target="_blank" title="LinkedIn - Tri-State WebGems, LLC">
                 <FontAwesomeIcon
                   icon={faLinkedin}
-                  className="text-4xl text-gray-400 hover:text-white"
+                  className="text-4xl text-white"
                 />
               </Link>
             </div>

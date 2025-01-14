@@ -8,25 +8,25 @@ const Greeting: React.FC = () => {
 
     switch (dayOfWeek) {
         case 'Monday':
-            greeting = 'Happy Monday! Have a fun day!';
+            greeting = 'Happy Monday! The week is full of possibilities!';
             break;
         case 'Tuesday':
-            greeting = 'Is it Tuesday? Time for tacos!';
+            greeting = 'Is it Tuesday? Taco Tuesday! Two-Piece Tuesday!';
             break;
         case 'Wednesday':
-            greeting = 'Happy Hump Day! May the force be with you!';
+            greeting = 'Happy Hump Day! You\'re halfway there!';
             break;
         case 'Thursday':
-            greeting = 'Happy Thursday! Almost there!';
+            greeting = 'Happy Thursday! Don\'t get <em>too</em> thirsty...';
             break;
         case 'Friday':
-            greeting = 'Happy Friday! Have a great weekend!';
+            greeting = 'Happy Friday! Cheers to the freakin\' weekend.';
             break;
         case 'Saturday':
-            greeting = 'Happy Saturday! Hook \'em Horns!';
+            greeting = 'Happy Saturday! College football is over so...movies?';
             break;
         case 'Sunday':
-            greeting = 'Happy Sunday! (We\'re closed today to spend time with our families)';
+            greeting = 'Happy Sunday! I\'m off today! See you tomorrow!';
             break;
         default:
             greeting = 'Hello!';
@@ -54,6 +54,7 @@ const Greeting: React.FC = () => {
     month === 'October' && date === 1 && (greeting = 'Happy LGBTQIA+ History Month!');
     month === 'October' && date === 31 && (greeting = 'Happy Halloween!');
     month === 'November' && date === 1 && (greeting = 'Happy Native American Heritage Month!');
+    month === 'November' && date === 11 && (greeting = 'We honor the veterans who lost their lives protecting our freedoms.')
     month === 'November' && date === 26 && (greeting = 'Happy Thanksgiving!');
     month === 'December' && (greeting = 'Happy Holidays, no matter what you celebrate!');
 
